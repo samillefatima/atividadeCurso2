@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+nav ul {
+display: flex;
+margin-left: 75%;
+}
+
+nav ul li {
+display: inline;
+list-style: none;
+padding: 25px 10px;
+font-size: 13px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s all ease-in-out;
+    background-color: #6b6c68;
+    padding: 10px 15px;
+    border: 1px white solid;
+}
+.topo{
+    height: 500px;
+    background-image: url(../imagens/background.jpg); 
+    background-position: center center;
+    background-size: cover; 
+}
+.topoConteudo{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+.topoConteudo h1{
+    font-size: 50px;
+    text-shadow:2px 2px 2px black;
+}
+.topoPragrafo p {
+    background-color: rgba(0, 0, 0, 0.842);
+    width: 290px;
+    height: 40px;
+    padding: 10px 0;
+    margin-left: 550px;
+    margin-top: 30px;
+    box-shadow: 50px white;
+}
+main {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.secao {
+    background-color: white;
+    margin-top: 15px;
+    padding: 15px;
+}
+.secaoImagens{
+    display: flex;
+    gap: 16px;
+    position: relative;
+}
+
+img{
+    width: 360px;
+    height: 220px;
+}
+.paragrafo{
+    background-color: rgba(0, 0, 0, 0.733);
+    color: white;
+    padding: 13px;
+    margin-top: -5px;
+}
+
+article header {
+    background-color: rgba(211, 211, 211, 0.516);
+    padding: 8px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.254) ;
+}
+article p {
+ padding: 15px 0 5px;
+}
+footer{
+    height: 80px;
+    background-color: #6b6c68;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+
+
+
+
